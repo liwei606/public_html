@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>ADAPT research</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+
+  <nav class="top-bar fixed">
+    <ul>
+      <li class="name"><h1><a href="index.html">Home</a></h1></li>
+    </ul>
+    <section>
+      <ul class="left">
+        <li class="active"><a href="research.html">Research</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="resource.html">Resources and links</a></li>
+        <li><a href="resource.html">Contact</a></li>
+        <li><a href="http://www.cs.sjtu.edu.cn/~kzhu/wiki/index.php5/Main_Page">Wiki</a></li>
+      </ul>
+
+      <ul class="right">
+        <li class="has-dropdown">
+          <a href="#">Links</a>
+
+          <ul class="dropdown">
+            <li><a href="http://www.sjtu.edu.cn">Shanghai JiaoTong University</a></li>
+            <li><a href="http://www.cs.sjtu.edu.cn">Computer Science Department</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  </nav><br><br><br><br>
+
+  <!-- End Navigation -->
+
+
+  <div class="row">
+      <h1>Research</h1>
+
+    <div class="three panel columns">
+      <img src="images/adapt-spring-2012.jpg">
+      <hr>
+      	<ul>
+      	<li><a href="#data">Database and Information Extraction</a></li>
+     	<li><a href="#pl">Programming Languages</a></li>
+      	</ul>
+    </div>
+
+    <div class="nine columns">
+    
+     <div class="panel"><h4 id="data">Database and Information Extraction</h4></div>
+        <div class="row">
+         <div class="twelve columns">
+            <p><a href="http://research.microsoft.com/en-us/projects/probase/"><h5>Probase</h5></a>
+		    A large general purpose taxonomy<br>
+		    </p>
+		    <hr>
+		    
+		    <p><a href="http://adapt.seiee.sjtu.edu.cn:8080/PredicTV/"><h5>PredicTV</h5></a>
+		    A dynamic TV program recommender<br>
+		    </p>
+		    <hr>
+		    
+		    <p><a href="project_wikification.html"><h5>Wikification via Co-occurrence</h5></a>
+		    A simple but surprisingly powerful framework of sense disambiguation using co-occurrences of Wikipedia links in the Wikipedia corpus.
+		    </p>
+		    <hr>
+		    
+		    <p><a href="project_imageSearch.html"><h5>Classified Image Search by Conceptualization</h5></a>
+		    The use of an external knowledge base to make better sense out of the text signals in a prototype system called CISC. Once we understand the semantics of the text better, the result of the clustering is significantly improved. In addition to clustering
+the images by their semantic entities, our system can also conceptualize each image cluster into a set of concepts to represent the meaning of the cluster.
+		    </p>
+		    <hr>
+		    
+		    <p><a href="project_topk.html"><h5>Top K List</h5></a>
+		    Extraction of top k list from any web pages. This work is concerned with information extraction from top-k web pages, which are web pages that describe top k instances of a topic which is of general interest.
+		    </p>
+		    <hr>
+		    
+		    <p><a href="http://adapt.seiee.sjtu.edu.cn/SetDemo/"><h5>Set-valued data anonymization</h5></a>
+		    A partial suppression framework for anonymizing set-valued data and conduct sufficient experiments which as a result fully represents the efficiency and effectiveness of our partial suppression technique.
+		    </p>
+		    <hr>
+		    
+		    <p><a href="project_tip.html"><h5>Trajectory Inference Problem (TIP)</h5></a>
+		    A new security problem in which individuals movement traces (in terms of accurate routes) can be inferred from just a series of mutual contact records and the map of the area in which they roam around.
+		    </p>
+		    
+		 </div>
+        </div>
+     
+    
+     <div class="panel"><h4 id="pl">Programming Language</h4></div>
+        <div class="row">
+         <div class="twelve columns">
+		    <p><a href="project_spec.html"><h5>Speculative Nondeterminism</h5></a>
+		    A new programmable concurrency control framework called speculative nondeterminism for real time, "open" and distributed agents.
+		    </p>
+		    <hr>
+		    
+		    <p><a href="project_richIP.html"><h5>Rich-IP</h5></a>
+		    We propose a high-level configurable description language that automatically synthesizes into IP core designs.<br>
+		    </p>
+		 </div>
+        </div>
+    
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="row">
+  <div class="twelve columns"><hr />
+      <div class="row">
+
+        <div class="six columns">
+            <p>&copy; Copyright 2012</p>
+        </div>
+
+      </div>
+  </div>
+  </footer>
+
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  
+  <script src="javascripts/jquery.foundation.joyride.js"></script>
+  
+  <script src="javascripts/jquery.foundation.clearing.js"></script>
+  
+  <script src="javascripts/jquery.foundation.magellan.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+</body>
+</html>
