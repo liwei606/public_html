@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Action Conceptualization</title>
+  <title>Rich-IP</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -37,7 +37,7 @@
         <li><a href="people.html">People</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="resource.html">Resources and Links</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resource.html">Contact</a></li>
         <li><a href="http://www.cs.sjtu.edu.cn/~kzhu/wiki/index.php5/Main_Page">Wiki</a></li>
       </ul>
 
@@ -58,7 +58,7 @@
 
 
   <div class="row">
-      <h1>Action Conceptualization</h1>
+      <h1>Rich-IP</h1>
 
     <div class="three panel columns">
       <img src="images/adapt-spring-2012.jpg">
@@ -66,6 +66,7 @@
       <ul>
   		<li><a href="#abstract">Abstract</a></li>
   		<li><a href="#member">Members</a></li>
+ 		<li><a href="#fig">Figures</a></li>
  		<li><a href="#demo">Demo</a></li>
  		<li><a href="#paper">Paper publication</a></li>
      </ul>
@@ -77,38 +78,43 @@
         <div class="row">
          <div class="twelve columns">
             <p>
-		    
+		    We propose a high-level configurable description language that automatically synthesizes into IP core designs. The architecture of this system leverages the programability of SystemVerilog but extends it with a high level of mathematical abstraction. It allows the hardware designer to specify algorithms and constraints in their designs directly, without concerns about the unnecessary details of hardware ctions when developing larger IPs. Our two-level compiler automatically translates a high level abstraction into a paramterized template,which ter with user input on the choices of the parameters,synthesizes to a custom RTL. This architecturegeneralizes the Spiral system to handle more diverse design problems than DSP and uses a frontend familiar to most hardware engineers. More importantly, the interactive parameter instantiation approach conveniently exposes areas of algorithmic optimization to the designer and automatically. 
 		    </p>
 		 </div>
         </div>
      
-    <div class="panel"><h4 id="member">Members</h4></div>
       <div class="row">
         <div class="twelve columns">
-            <p><a href="underconstruct.html"><h5>Kaiqi Zhao</h5></a>
+            <p><a href="underconstruct.html"><h5>Alex Wang</h5></a>
 		    </p>
-		    <p><a href="underconstruct.html"><h5>Zhiyuan Cai</h5></a>
+            <p><a href="underconstruct.html"><h5>Elva Tang</h5></a>
 		    </p>
             <p><a href="http://www.cs.sjtu.edu.cn/~kzhu"><h5>Kenny Zhu</h5></a>
-		    </p>
-		    <p><a href="http://research.microsoft.com/en-us/people/haixunw/"><h5>Haixun Wang</h5></a>
 		    </p>
           </div>
         </div>
     
+     <div class="panel"><h4 id="fig">Figures</h4></div>
+        <div class="row">
+         <div class="twelve columns">
+		    <img src="images/project_richIP_1.jpg"><h5>Figure 1: The architecture</h5>
+		 </div>
+        </div>
+   
+    
      <div class="panel"><h4 id="demo">Demo</h4></div>
         <div class="row">
          <div class="twelve columns">
-		    <a href="underconstruction.html"><h5>Action Conceptualization</h5></a>
+		    <a href="underconstruct.html"><h5>Rich-IP</h5></a>
 		 </div>
         </div>
     
      <div class="panel"><h4 id="dl">Papers</h4></div>
         <div class="row">
          <div class="twelve columns">
-		    <a href="http://www.cs.sjtu.edu.cn/~kzhu/papers/gcc-runtime.pdf"><h5></h5></a>
-		    <p><a href="http://applc12.ict.ac.cn/"></a><br>
-		    </p>
+		     <a href="http://www.cs.sjtu.edu.cn/~kzhu/papers/rich-ip.pdf"><h5>RICH-IP: An Interactive System for Configurable
+High-Level IP Synthesis</h5></a>
+            <p>DAC 2010</p>
 		 </div>
         </div>
         
@@ -173,3 +179,4 @@
   <script src="javascripts/app.js"></script>
 </body>
 </html>
+    <div class="panel"><h4 id="member">Members</h4></div>

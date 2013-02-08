@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Action Conceptualization</title>
+  <title>Classified Image Search by Conceptualization</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -36,8 +36,9 @@
         <li class="active"><a href="research.html">Research</a></li>
         <li><a href="people.html">People</a></li>
         <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
         <li><a href="resource.html">Resources and Links</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resource.html">Contact</a></li>
         <li><a href="http://www.cs.sjtu.edu.cn/~kzhu/wiki/index.php5/Main_Page">Wiki</a></li>
       </ul>
 
@@ -58,7 +59,7 @@
 
 
   <div class="row">
-      <h1>Action Conceptualization</h1>
+      <h2>Classified Image Search by Conceptualization</h2>
 
     <div class="three panel columns">
       <img src="images/adapt-spring-2012.jpg">
@@ -66,6 +67,7 @@
       <ul>
   		<li><a href="#abstract">Abstract</a></li>
   		<li><a href="#member">Members</a></li>
+ 		<li><a href="#fig">Figures</a></li>
  		<li><a href="#demo">Demo</a></li>
  		<li><a href="#paper">Paper publication</a></li>
      </ul>
@@ -77,7 +79,8 @@
         <div class="row">
          <div class="twelve columns">
             <p>
-		    
+		    Clustering of images from search results can improve the user experience of image search. Most of the existing systems use both visual features and surrounding texts as signals for clustering while this paper demonstrates the use of an external knowledge base to make better sense out of the text signals in a prototype system called CISC. Once we understand the semantics of the text better, the result of the clustering is significantly improved. In addition to clustering
+the images by their semantic entities, our system can also conceptualize each image cluster into a set of concepts to represent the meaning of the cluster.
 		    </p>
 		 </div>
         </div>
@@ -87,30 +90,43 @@
         <div class="twelve columns">
             <p><a href="underconstruct.html"><h5>Kaiqi Zhao</h5></a>
 		    </p>
-		    <p><a href="underconstruct.html"><h5>Zhiyuan Cai</h5></a>
+            <p><a href="underconstruct.html"><h5>Enxun Wei</h5></a>
+		    </p>
+            <p><a href="underconstruct.html"><h5>Qingyu Sui</h5></a>
 		    </p>
             <p><a href="http://www.cs.sjtu.edu.cn/~kzhu"><h5>Kenny Zhu</h5></a>
-		    </p>
-		    <p><a href="http://research.microsoft.com/en-us/people/haixunw/"><h5>Haixun Wang</h5></a>
 		    </p>
           </div>
         </div>
     
+     <div class="panel"><h4 id="fig">Figures</h4></div>
+      <div class="row">
+        <div class="twelve columns">
+          <center>
+            <img src="images/screen_bean2.png"><h5>Figure 1: Mixed "beans"</h5>
+            <img src="images/proto_bean.png"><h5>Figure 2: Clustered "beans"</h5>
+            <img src="images/context_bean.png"><h5>Figure 3: Context extraction</h5>
+          </center>
+        </div>
+      </div>
+   
+    
      <div class="panel"><h4 id="demo">Demo</h4></div>
         <div class="row">
          <div class="twelve columns">
-		    <a href="underconstruction.html"><h5>Action Conceptualization</h5></a>
+		    <a href="http://202.120.38.145:4081/"><h5>Classified Image Search by Conceptualization</h5></a>
 		 </div>
         </div>
-    
+     
      <div class="panel"><h4 id="dl">Papers</h4></div>
         <div class="row">
          <div class="twelve columns">
-		    <a href="http://www.cs.sjtu.edu.cn/~kzhu/papers/gcc-runtime.pdf"><h5></h5></a>
-		    <p><a href="http://applc12.ict.ac.cn/"></a><br>
+		     <a href=""><h5>CISC: Clustered Image Search by Conceptualization</h5></a>
+            <p>EDBT 2013<br>
 		    </p>
 		 </div>
         </div>
+        
         
   </div>
 

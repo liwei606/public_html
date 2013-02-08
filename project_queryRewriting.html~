@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Action Conceptualization</title>
+  <title>Query rewriting for topic search</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -37,7 +37,7 @@
         <li><a href="people.html">People</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="resource.html">Resources and Links</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resource.html">Contact</a></li>
         <li><a href="http://www.cs.sjtu.edu.cn/~kzhu/wiki/index.php5/Main_Page">Wiki</a></li>
       </ul>
 
@@ -58,7 +58,7 @@
 
 
   <div class="row">
-      <h1>Action Conceptualization</h1>
+      <h1>Query rewriting for topic search</h1>
 
     <div class="three panel columns">
       <img src="images/adapt-spring-2012.jpg">
@@ -77,7 +77,7 @@
         <div class="row">
          <div class="twelve columns">
             <p>
-		    
+		    In this work, we consider a problem in which the user does not know the exact keywords except for some very rough concepts and we try to help in such situation. 
 		    </p>
 		 </div>
         </div>
@@ -85,13 +85,11 @@
     <div class="panel"><h4 id="member">Members</h4></div>
       <div class="row">
         <div class="twelve columns">
-            <p><a href="underconstruct.html"><h5>Kaiqi Zhao</h5></a>
+            <p><a href="underconstruct.html"><h5>Jack Sun</h5></a>
 		    </p>
-		    <p><a href="underconstruct.html"><h5>Zhiyuan Cai</h5></a>
+		    <p><a href="underconstruct.html"><h5>Franky</h5></a>
 		    </p>
             <p><a href="http://www.cs.sjtu.edu.cn/~kzhu"><h5>Kenny Zhu</h5></a>
-		    </p>
-		    <p><a href="http://research.microsoft.com/en-us/people/haixunw/"><h5>Haixun Wang</h5></a>
 		    </p>
           </div>
         </div>
@@ -99,7 +97,7 @@
      <div class="panel"><h4 id="demo">Demo</h4></div>
         <div class="row">
          <div class="twelve columns">
-		    <a href="underconstruction.html"><h5>Action Conceptualization</h5></a>
+		    <a href="http://adapt.seiee.sjtu.edu.cn/~franky/queryrewriting/pages/onlinedemo.php"><h5>Query rewriting for topic search</h5></a>
 		 </div>
         </div>
     

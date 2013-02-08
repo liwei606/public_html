@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Action Conceptualization</title>
+  <title>Speculative Nondeterminism</title>
   
   <!-- Included CSS Files (Uncompressed) -->
   <!--
@@ -37,7 +37,7 @@
         <li><a href="people.html">People</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="resource.html">Resources and Links</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resource.html">Contact</a></li>
         <li><a href="http://www.cs.sjtu.edu.cn/~kzhu/wiki/index.php5/Main_Page">Wiki</a></li>
       </ul>
 
@@ -58,7 +58,7 @@
 
 
   <div class="row">
-      <h1>Action Conceptualization</h1>
+      <h1>Speculative Nondeterminism</h1>
 
     <div class="three panel columns">
       <img src="images/adapt-spring-2012.jpg">
@@ -77,7 +77,7 @@
         <div class="row">
          <div class="twelve columns">
             <p>
-		    
+		    We propose a new programmable concurrency control framework called speculative nondeterminism for real time, "open" and distributed agents. In this framework, dynamic and concurrent agent programs affect each other through a centralized store which represents shared resources. Our framework has novel programming constructs which allows an agent to speculate against the future by multiple exclusive choices that encode different strategies to achieve its goals.
 		    </p>
 		 </div>
         </div>
@@ -85,29 +85,29 @@
     <div class="panel"><h4 id="member">Members</h4></div>
       <div class="row">
         <div class="twelve columns">
-            <p><a href="underconstruct.html"><h5>Kaiqi Zhao</h5></a>
+            <p><a href="http://xiao-jia.com"><h5>Xiao Jia</h5></a>
 		    </p>
-		    <p><a href="underconstruct.html"><h5>Zhiyuan Cai</h5></a>
+		    <p><a href="http://www.cs.sjtu.edu.cn/~kzhu"><h5>Kenny Q. Zhu</h5></a>
 		    </p>
-            <p><a href="http://www.cs.sjtu.edu.cn/~kzhu"><h5>Kenny Zhu</h5></a>
+            <p><a href="http://www.comp.nus.edu.sg/~joxan/"><h5>Joxan Jaffar (NUS)</h5></a>
 		    </p>
-		    <p><a href="http://research.microsoft.com/en-us/people/haixunw/"><h5>Haixun Wang</h5></a>
+		    <p><a href="http://www.comp.nus.edu.sg/~ryap/"><h5>Roland Yap (NUS)</h5></a>
 		    </p>
           </div>
-        </div>
+        </div> 
     
      <div class="panel"><h4 id="demo">Demo</h4></div>
         <div class="row">
          <div class="twelve columns">
-		    <a href="underconstruction.html"><h5>Action Conceptualization</h5></a>
+		    <a href="http://adapt.seiee.sjtu.edu.cn/speculate"><h5>Speculative Nondeterminism</h5></a>
 		 </div>
         </div>
     
      <div class="panel"><h4 id="dl">Papers</h4></div>
         <div class="row">
          <div class="twelve columns">
-		    <a href="http://www.cs.sjtu.edu.cn/~kzhu/papers/gcc-runtime.pdf"><h5></h5></a>
-		    <p><a href="http://applc12.ict.ac.cn/"></a><br>
+		    <a href="http://www.cs.sjtu.edu.cn/~kzhu/papers/gcc-runtime.pdf"><h5>A Runtime System for Generalized Committed Choice</h5></a>
+		    <p><a href="http://applc12.ict.ac.cn/">APPLC 2012</a><br>
 		    </p>
 		 </div>
         </div>
