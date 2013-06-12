@@ -113,17 +113,16 @@
     	<img src="images/gp1_small.JPG">
 	<br><center>Spring, 2013</center><br>     	
      	</div>
-     
-        <div class="six columns">
-        <img src="images/group_BJ_small.jpg">
-	<br><center>Summer, 2013</center><br>
-        </div>
-        
-        <hr/>
-	
+     	
         <div class="six columns"> 
         <img src="images/gp2_small.JPG">
   	<br><center>Spring, 2013</center><br>     	
+        </div>
+        <hr/>
+
+        <div class="six columns">
+        <img src="images/group_BJ_small.jpg">
+	<br><center>Summer, 2013</center><br>
         </div>
         
         
