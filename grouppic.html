@@ -74,85 +74,34 @@
 
     <div class="nine columns">   
       <div class="row">
-         
-      	<div class="six columns"> 
-    	<img src="images/adapt-fall-2010_small.jpg">
-	<br><center>Fall, 2010</center><br>     	
-     	</div>
-
-        <div class="six columns"> 
-        <img src="images/adapt-spring-2011_small.jpg">
-  	<br><center>Spring, 2011</center><br>     	
-        </div>
-        <hr/>
-
-        <div class="six columns">
-        <img src="images/adapt-fall-2011_small.jpg">
-	<br><center>Fall, 2011</center><br>
-        </div>
-             
-      	<div class="six columns"> 
-    	<img src="images/adapt-fall-2012_small.jpg">
-	<br><center>Fall, 2012</center><br>     	
-     	</div>     
-     	
-        <hr/>
-         
-      	<div class="six columns"> 
-    	<img src="images/adapt-spring-2012_small.jpg">
-	<br><center>Spring, 2012</center><br>     	
-     	</div>
-     	
-        <div class="six columns"> 
-        <img src="images/adapt-spring-2013_small.jpg">
-  	<br><center>Spring, 2013</center><br>     	
-        </div>
-        <hr/>
-         
-      	<div class="six columns"> 
-    	<img src="images/gp1_small.JPG">
-	<br><center>Spring, 2013</center><br>     	
-     	</div>
-     
-        <div class="six columns">
-        <img src="images/group_BJ_small.jpg">
-	<br><center>Summer, 2013</center><br>
-        </div>
-        
-        <hr/>
-
-      	<div class="six columns"> 
-    	<img src="images/gp_ml1.JPG">
-	<br><center>Summer, 2013</center><br>     	
-     	</div>
-     
-        <div class="six columns">
-        <img src="images/gp_ml2.JPG">
-	<br><center>Summer, 2013</center><br>
-        </div>
-        
-        <hr/>
-
-	<div class="six columns"> 
-    	<img src="images/gp_spring_2013.JPG">
-	<br><center>Summer, 2013</center><br>     	
-     	</div>
-     
-        <div class="six columns">
-        <img src="images/gp_seminar.JPG">
-	<br><center>Summer, 2013</center><br>
-        </div>
-        
-        <hr/>
-	
-        <div class="six columns"> 
-        <img src="images/gp2_small.JPG">
-  	<br><center>Spring, 2013</center><br>     	
-        </div>
-        
-        
-        <hr/>
-
+<script>
+images = [
+  { title: "Fall, 2010",   file: "adapt-fall-2010" },
+  { title: "Spring, 2011", file: "adapt-spring-2011" },
+  { title: "Fall, 2011",   file: "adapt-fall-2011" },
+  { title: "Fall, 2012",   file: "adapt-fall-2012" },
+  { title: "Spring, 2012", file: "adapt-spring-2012" },
+  { title: "Spring, 2013", file: "adapt-spring-2013" },
+  { title: "Spring, 2013", file: "gp1" },
+  { title: "Summer, 2013", file: "group_BJ" },
+  { title: "Summer, 2013", file: "gp_menglu1" },
+  { title: "Summer, 2013", file: "gp_menglu2" },
+  { title: "Summer, 2013", file: "gp_spring_2013" },
+  { title: "Summer, 2013", file: "gp_seminar" },
+  { title: "Spring, 2013", file: "gp2" }
+];
+for (i = 0; i < images.length; i++) {
+  image = images[i];
+  document.write('<div class="six columns">');
+  document.write('<a href="images/' + image.file + '.jpg">');
+  document.write('<img src="images/' + image.file + '_small.jpg"></a>');
+  document.write('<br><center>' + image.title + image.file + '</center><br>');
+  document.write('</div>');
+  if (i % 2 == 1) {
+    document.write('<hr>');
+  }
+}
+</script>
      </div>
     </div>
   </div>
